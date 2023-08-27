@@ -1,0 +1,385 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right,#192233, #0a0e17);
+}
+
+.navbar{
+    background: linear-gradient(to right,#192233, #0a0e17);
+    height: 4vw;
+    font-family: Metropolis;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 1.2vw;
+}
+
+.navbar_elements{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav_items_links{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.nav_items{
+    font-size: 1.3vw;
+    margin-top: 0.5vw;
+    margin-right: 3vw;
+    margin-bottom: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.9vw;;
+}
+
+.nav_items:hover{
+    background: #FB7D56;
+    border-radius: 1.5vw;
+    transition: 0.4s;
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+    margin-right: 34.5vw;
+    margin-top: 0.5vw;
+    padding-right: 1vw;
+    padding-top: 0.7vw; 
+    padding-left: 0.5vw ;
+    padding-bottom: 0.5vw ;
+    font-family: Great Vibes;
+}
+
+.main
+{
+    margin-left: 1.3vw;
+    margin-right: 2.3vw;
+    padding-top: 1.9vw;
+    height: 34.5vw;
+}
+
+.main_text{
+    margin-right: 1.3vw;
+    height: 34.5vw;
+    font-family: Metropolis;
+}
+
+.hello{
+    padding-top: 8.2vw;
+    margin-left: 5.2vw;
+    font-weight: 550;
+    font-size: 1.4vw;
+    letter-spacing: 0.06vw;
+    color: white;
+}
+
+.main_name{
+    margin-left:5.2vw ;
+    font-weight: 900;
+    font-size: 2.6vw;
+    color: white;
+}
+
+.main_desp{
+    margin-left:5.2vw ;
+    font-weight: 550;
+    font-size: 1.4vw;
+    color: white;
+}
+
+.main_part{
+    margin-left:5.2vw ;
+    margin-bottom: 2.6vw;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 1.3vw;
+    color: white;
+}
+
+.contact{
+    text-decoration: none;
+    margin-left:5.2vw ;
+    padding-right:1.9vw;
+    padding-left: 1.9vw;
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+    border-radius: 0.6vw;
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: white;
+    background: #FB7D56;
+}
+
+.social{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    align-content:flex-end;
+    padding-right: 2.6vw ;
+    margin-left: 5.2vw;
+    padding: 0.6vw;
+    margin-top: 1.9vw;
+    margin-right: 34.5vw;
+    color: white;
+    padding-top: 1.9vw;
+}
+
+.insta{
+    font-size: 3.2vw;
+    padding: 0.3vw 0.3vw 0vw;
+    padding-bottom:0vw;
+    border-radius:0.3vw;
+    color: white;
+    margin-right: 40px;
+}
+
+.insta:hover{
+    transition: 0.4s;
+    background:#E4102E;
+}
+
+.linkedin{
+    font-size: 2.8vw;
+    margin-top: 0.2vw;
+    padding: 0.5vw 0.3vw 0vw;
+    border-radius:0.3vw;
+    color: white;
+}
+
+.linkedin:hover{
+    transition: 0.4s;
+    background: #0275B2;
+}
+
+.lnlink{
+    color: white;
+}
+
+.iglink{
+    color: white;
+}
+
+.container{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.photo{
+    margin-top: 4.6vw;
+    border-radius: 59vw;
+}
+
+.aboutme{
+    padding-top: 6.5vw;
+    margin:0vw 3.2vw 3.2vw;
+    font-family: Metropolis;
+}
+
+.aboutme_heading{
+    padding-left: 5.9vw;
+    padding-top: 0.6vw;
+    color: white;
+    letter-spacing: 0.06vw;
+}
+
+.aboutme_des{
+    color: white;
+    padding-left: 5.9vw;
+    padding-right: 16.4vw;
+    text-align: justify;
+    font-size: 1.1vw;
+    letter-spacing: 0.06vw;
+    line-height: 1.9vw;
+}
+
+.line{
+    border-top: 0.6vw solid #fb7d56;
+    margin-right: 82.2vw;
+    margin-left: 5.9vw;
+    border-radius: 0.9vw;
+}
+
+.technical_skills{
+    margin: 3.2vw;
+    font-family: Metropolis;
+}
+
+.techincal_heading{
+    padding-left: 5.9vw;
+    padding-top: 0.6vw;
+    color: white;
+    letter-spacing: 0.06vw;
+}
+
+.line_tech{
+    border-top: 0.6vw solid #fb7d56;
+    margin-right: 77.3vw;
+    margin-left: 5.9vw;
+    border-radius: 0.9vw;
+}
+
+.tech_skill_list{
+    list-style-type: none;
+    margin-left: 3.2vw;
+    margin-right: 5.9vw;
+    padding-left: 0vw;
+}
+
+.skill_box{
+    list-style-type: none;
+    display: flex;
+    align-content: end;
+}
+
+.skill_box_div{
+    margin-top: 1.9vw;
+    display: flex;
+    margin-right: 0.9vw;
+    width: 26.3vw;
+    height: 9.2vw;
+    list-style-type: none;
+    border: 0.1vw solid #0a0e17;
+    border-radius: 0.5vw;
+    background: #192233;
+}
+
+.skill_box_div:hover{
+    background:#0a0e17;
+    transition: 0.2s;
+    cursor:default;
+}
+
+.python_logo{
+    height: 4.6vw;
+    width: 4.6vw;
+    padding: 0.6vw;
+    margin-top: 1.9vw;
+    margin-left: 0.3vw;
+}
+
+.skill_desc{
+    margin: 0.6vw;
+}
+
+.skill_heading{
+    color: white;
+    letter-spacing: 0.06vw;
+}
+.skill_line{
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 0.06vw; 
+    line-height: 1.2vw;
+}
+
+.line_non_tech{
+    border-top: 0.6vw solid #fb7d56;
+    margin-right: 71vw;
+    margin-left: 5.9vw;
+    border-radius: 0.9vw;
+}
+
+.line_footer{
+    border-top:0.1vw solid grey;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-top: 6.5vw;
+}
+
+.footer_main{
+    margin: 0vw 3.2vw 1.9vw;
+    height: 16.4vw;
+    font-family: Metropolis;
+}
+
+.footer_heading{
+    padding-left: 5.9vw;
+    padding-top: 0.6vw;
+    color: white;
+    letter-spacing: 0.06vw;
+}
+
+.contact_list{
+    list-style-type: none;
+    display: flex;
+    margin-left: 5.9vw;
+    padding: 0vw;
+    margin-right: 0vw;
+    margin-top: 1.9vw;
+}
+
+.contact_elements{
+    margin-right: 7.9vw;
+    padding-right: 0.6vw;
+}
+
+.contact_email{
+    display: flex;
+    font-size: 1.9vw;
+    color:white;
+    padding-top: 2.6vw;
+}
+
+.email{
+    text-decoration: none;
+    color: white;
+    padding-left: 1.9vw;
+}
+
+.contact_email:hover{
+    border-bottom: 0.1vw solid white;
+    transition:0.2s ;
+}
+
+.contact_links{
+    list-style-type: none;
+    height: 7.9vw;
+    padding-left: 4.6vw;
+    line-height: 3.6vw;
+}
+
+.contact_insta{
+    font-size: 3.2vw;
+    margin: 1.9vw;
+    padding: 0.3vw 0.3vw 0vw;
+    padding-bottom:0vw;
+    border-radius:0.3vw;
+    color: white;
+}
+
+.contact_insta:hover{
+    transition: 0.4s;
+    background:#E4102E;
+}
+
+.contact_linkedin{
+    font-size: 2.6vw;
+    margin: 1.6vw ;
+    padding: 0.3vw 0.3vw 0vw;
+    border-radius:0.3vw;
+    color: white;
+}
+
+.contact_linkedin:hover{
+    transition: 0.4s;
+    background: #0275B2;
+}
+
+.contact_phone{
+    padding-left: 0.6vw;
+    padding-top: 2.6vw;
+    font-size: 1.6vw;
+    letter-spacing: 0.6vw;
+}
+
+.contact_phone:hover{
+    border-bottom: 0.1vw solid white;
+    transition:0.2s ;   
+}
+
